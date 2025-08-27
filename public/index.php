@@ -1,7 +1,7 @@
 <?php
 // index.php - Mini OCR app (PHP + Tesseract)
 // Hỗ trợ: upload ảnh hoặc nhập URL → OCR tiếng Việt + English
-
+// php -S localhost:8000 -t public
 // --- Cấu hình ---
 $uploadDir = __DIR__ . '/../storage/';
 if (!is_dir($uploadDir)) {
